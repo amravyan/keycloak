@@ -83,7 +83,7 @@ public class InfinispanUserCacheProviderFactory implements UserCacheProviderFact
     public void invalidate(KeycloakSession session, InvalidableObjectType type, Object... params) {
         if (type == ObjectType.REALM || type == ObjectType.USER) {
             if (this.userCache != null) {
-                this.userCache.clear();
+                return;
             }
         }
     }
