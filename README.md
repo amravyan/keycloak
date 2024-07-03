@@ -1,4 +1,4 @@
-# Keycloak
+# Keycloak 1
 
 Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services.
 
@@ -31,7 +31,7 @@ To run Keycloak, download the distribution from our [website](https://www.keyclo
 Alternatively, you can use the Docker image by running:
 
     docker run quay.io/keycloak/keycloak start-dev
-    
+
 For more details refer to the [Keycloak Documentation](https://www.keycloak.org/documentation.html).
 
 
